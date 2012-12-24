@@ -1,0 +1,35 @@
+<!-- Homepage: Displays navbar, hero unit, and three sections (Read Reviews, Write Reviews, About Us) -->
+
+<div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit" style="background-image: url(TutoringSession.jpg);">
+        <h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em #333; padding-top: 4cm;">Welcome to Prepster!</h1>
+        <p style="color: white; text-shadow: black 0.1em 0.1em 0.2em #333;"><br />Prepster is a new way to find and share reviews for both online and 
+        in-person college preparatory services.</p>
+        <p><%= link_to "Learn More", static_pages_learnmore_path, :class => "btn btn-primary btn-large" %></p>
+      </div>
+      <div class="row" style="margin-left: -30px;">
+        <div class="span4">
+          <h2>Read Reviews</h2>
+          <p>Read reviews from your peers on college prep services ranging from Khan Academy to The Princeton Review. </p>
+          <p><%= link_to "Read Reviews", posts_path, :class => "btn" %></p>
+        </div>
+        <div class="span4">
+          <h2>Write Reviews</h2>
+          <p>Enjoyed a particular experience with a private tutor? Share your story. </p> <br />
+          <p><%= link_to "Write a Review", new_post_path, :class => "btn" %></p>
+       </div>
+        <div class="span4">
+          <h2>About Us</h2>
+          <p>Learn about the team that brought Prepster into the world.<br/></p>
+          <p><%= link_to "About Us", static_pages_aboutus_path, :class => "btn" %></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; RayBlu 2012. Made with <strong>Bootstrap</strong>.</p>
+      </footer>
+    </div>

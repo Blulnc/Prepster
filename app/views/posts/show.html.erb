@@ -1,0 +1,28 @@
+<!-- Show page: Displays an individual post -->
+
+<div class="span1"></div>
+<div class="span10" style="border: 1px solid gray; border-radius: 5px; padding: 30px; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);">
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<!-- Dynamically inserts data from each row in Posts databse -->
+<p>
+  <b>Name:</b>
+  <%= @post.name %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @post.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @post.content %>
+</p>
+
+<!-- redirects user back to either the Edit page or Read Reviews page -->
+<%= link_to 'Edit', edit_post_path(@post), :class => 'btn btn-mini' %>
+<%= link_to 'Back', posts_path, :class => 'btn btn-mini' %>
+</div>
+</div>

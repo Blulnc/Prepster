@@ -1,0 +1,54 @@
+<!-- Read Reviews page: Displays contents in the Posts database in a user-friendly table -->
+
+<div class="span1"></div>
+<div class="span10" style="border: 1px solid gray; border-radius: 5px; padding: 40px; padding-left: 70px; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);">
+<h1>Reviews</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+     <th>Name</th>
+     <th>Title</th>
+     <th>Content</th>
+     <th></th>
+     <th></th>
+     <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- dynamically inserts data from each row in Posts database -->
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.name %></td>
+        <td><%= post.title %></td>
+        <td><%= post.content %></td>
+        <td><%= link_to 'Show', post, :class => 'btn btn-mini btn-info' %></td>
+        <td><%= link_to 'Edit', edit_post_path(post), :class => 'edit btn btn-mini', :id => post.fbid %></td>
+        <td><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'delete btn btn-mini btn-danger', :id => post.fbid %></td>
+      </tr>
+  <% end %>
+</tbody>
+</table>
+
+<br />
+
+<%= link_to "Write a Review", new_post_path, :class => "btn btn-primary" %>
+<p><br />&copy; RayBlu 2012. Made with <strong>Bootstrap</strong>.</p>
+<!-- Hides Edit and Delete button if current user is either not the person who posted the review or didn't login to Facebook -->
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.edit').each(function(index) {
+    if (localStorage.fbid != $(this).attr("id")){
+       $(this).hide();
+    }
+   
+  });
+  $('.delete').each(function(index) {
+    if (localStorage.fbid != $(this).attr("id")){
+       $(this).hide();
+    }
+   
+  });
+});
+</script>
+</div>
