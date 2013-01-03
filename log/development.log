@@ -88166,3 +88166,134 @@ Served asset /static_pages.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-09 01:52:10 -0500
 Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-02 22:36:03 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 1415ms (Views: 1414.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:10 -0500
+Served asset /application.css - 200 OK (59ms)
+
+
+Started GET "/assets/app_bootstrap.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:10 -0500
+Served asset /app_bootstrap.css - 200 OK (18ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:10 -0500
+Served asset /home.css - 200 OK (17ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /posts.css - 200 OK (16ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /static_pages.css - 200 OK (24ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /scaffolds.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /jquery.js - 200 OK (22ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/transition.js - 200 OK (28ms)
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/dropdown.js - 200 OK (18ms)
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/button.js - 200 OK (35ms)
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/carousel.js - 200 OK (21ms)
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/collapse.js - 200 OK (17ms)
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/alert.js - 200 OK (23ms)
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:11 -0500
+Served asset /twitter/bootstrap/affix.js - 200 OK (53ms)
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/typeahead.js - 200 OK (38ms)
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/scrollspy.js - 200 OK (17ms)
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/tab.js - 200 OK (32ms)
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/tooltip.js - 200 OK (18ms)
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/modal.js - 200 OK (17ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap.js - 200 OK (114ms)
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /twitter/bootstrap/popover.js - 200 OK (19ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /bootstrap.js - 200 OK (11ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /home.js - 200 OK (9ms)
+
+
+Started GET "/assets/jQuery_files/custom.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /jQuery_files/custom.js - 200 OK (17ms)
+
+
+Started GET "/assets/jQuery_files/donate.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /jQuery_files/donate.js - 200 OK (10ms)
+
+
+Started GET "/assets/jQuery_files/ga.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /jQuery_files/ga.js - 200 OK (16ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /posts.js - 200 OK (16ms)
+
+
+Started GET "/assets/jQuery_files/jquery.min.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /jQuery_files/jquery.min.js - 200 OK (8ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /static_pages.js - 200 OK (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-02 22:36:12 -0500
+Served asset /application.js - 200 OK (227ms)
